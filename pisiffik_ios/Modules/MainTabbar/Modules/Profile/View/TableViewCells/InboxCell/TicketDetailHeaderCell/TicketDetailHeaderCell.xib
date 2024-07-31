@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FontsFree-Net-SFProText-Medium.ttf">
+            <string>SFProText-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TicketDetailHeaderCell" rowHeight="126" id="KGk-i7-Jjw" customClass="TicketDetailHeaderCell" customModule="pisiffik_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="502" height="126"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="502" height="126"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4tJ-p5-Hez">
+                        <rect key="frame" x="0.0" y="0.0" width="502" height="126"/>
+                        <subviews>
+                            <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="AyC-gr-iie">
+                                <rect key="frame" x="16" y="8" width="470" height="67"/>
+                                <subviews>
+                                    <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="wn8-Lw-voj">
+                                        <rect key="frame" x="0.0" y="0.0" width="470" height="17"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Ticket # 201" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dy8-kt-IUm">
+                                                <rect key="frame" x="0.0" y="0.0" width="328.5" height="17"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="14"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 Jun 2022 03:10 AM." textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UIl-zq-Aek">
+                                                <rect key="frame" x="336.5" y="0.0" width="133.5" height="17"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="12"/>
+                                                <color key="textColor" name="TextGrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                    <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="TRf-i7-ton">
+                                        <rect key="frame" x="0.0" y="25" width="470" height="17"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Sk-uo-rij">
+                                                <rect key="frame" x="0.0" y="0.0" width="48.5" height="17"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="14"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Open" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBG-P9-7c1">
+                                                <rect key="frame" x="56.5" y="0.0" width="413.5" height="17"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="12"/>
+                                                <color key="textColor" name="LightGreenColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                    <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="wHH-cE-qRl">
+                                        <rect key="frame" x="0.0" y="50" width="470" height="17"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reason" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ltp-x1-j0I">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="17"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="14"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Technical Problem" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URn-36-Bio">
+                                                <rect key="frame" x="58" y="0.0" width="412" height="17"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="12"/>
+                                                <color key="textColor" name="TextGrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="f7z-oP-Iyd">
+                                <rect key="frame" x="16" y="83" width="470" height="22"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subject:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eL-dD-hjr">
+                                        <rect key="frame" x="0.0" y="0.0" width="56" height="22"/>
+                                        <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="14"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IW-qF-gqC">
+                                        <rect key="frame" x="61" y="0.0" width="409" height="22"/>
+                                        <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="12"/>
+                                        <color key="textColor" name="TextGrayColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dXT-BL-l30" userLabel="Seperator">
+                                <rect key="frame" x="20" y="117" width="462" height="1"/>
+                                <color key="backgroundColor" name="NewBgColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="3Wq-vM-JxP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="f7z-oP-Iyd" firstAttribute="top" secondItem="AyC-gr-iie" secondAttribute="bottom" constant="8" id="55F-Du-WpD"/>
+                            <constraint firstItem="dXT-BL-l30" firstAttribute="leading" secondItem="4tJ-p5-Hez" secondAttribute="leading" constant="20" id="9Mo-Ma-j1h"/>
+                            <constraint firstAttribute="bottom" secondItem="dXT-BL-l30" secondAttribute="bottom" constant="8" id="QcQ-2E-gqu"/>
+                            <constraint firstAttribute="trailing" secondItem="AyC-gr-iie" secondAttribute="trailing" constant="16" id="UIg-54-8cj"/>
+                            <constraint firstItem="AyC-gr-iie" firstAttribute="leading" secondItem="4tJ-p5-Hez" secondAttribute="leading" constant="16" id="UNX-Em-SYH"/>
+                            <constraint firstItem="f7z-oP-Iyd" firstAttribute="leading" secondItem="4tJ-p5-Hez" secondAttribute="leading" constant="16" id="Yln-zt-re3"/>
+                            <constraint firstAttribute="trailing" secondItem="f7z-oP-Iyd" secondAttribute="trailing" constant="16" id="bJE-Te-NdQ"/>
+                            <constraint firstAttribute="trailing" secondItem="dXT-BL-l30" secondAttribute="trailing" constant="20" id="dW4-Xj-cBI"/>
+                            <constraint firstItem="dXT-BL-l30" firstAttribute="top" secondItem="f7z-oP-Iyd" secondAttribute="bottom" constant="12" id="wRA-vP-05q"/>
+                            <constraint firstItem="AyC-gr-iie" firstAttribute="top" secondItem="4tJ-p5-Hez" secondAttribute="top" constant="8" id="zKw-wq-yMO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="4tJ-p5-Hez" secondAttribute="trailing" id="5lr-q9-v3k"/>
+                    <constraint firstItem="4tJ-p5-Hez" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="OnJ-NB-JUu"/>
+                    <constraint firstAttribute="bottom" secondItem="4tJ-p5-Hez" secondAttribute="bottom" id="Ysx-at-cKL"/>
+                    <constraint firstItem="4tJ-p5-Hez" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="e5q-kE-vnq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="dateLbl" destination="UIl-zq-Aek" id="i8E-3l-xwr"/>
+                <outlet property="openLbl" destination="tBG-P9-7c1" id="4v5-Tw-xCJ"/>
+                <outlet property="reasonLbl" destination="Ltp-x1-j0I" id="6Xy-UZ-cnA"/>
+                <outlet property="reasonNameLbl" destination="URn-36-Bio" id="aMF-tA-NJw"/>
+                <outlet property="statusLbl" destination="5Sk-uo-rij" id="h6p-Kw-b0y"/>
+                <outlet property="subjectLbl" destination="8eL-dD-hjr" id="D3S-Dj-62V"/>
+                <outlet property="subjectNameLbl" destination="0IW-qF-gqC" id="tUx-lx-IAh"/>
+                <outlet property="ticketNmbLbl" destination="Dy8-kt-IUm" id="diE-Az-5b4"/>
+            </connections>
+            <point key="canvasLocation" x="263.768115942029" y="137.94642857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="LightGreenColor">
+            <color red="0.55699998140335083" green="0.96100002527236938" blue="0.046999998390674591" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="NewBgColor">
+            <color red="0.96100002527236938" green="0.96100002527236938" blue="0.96100002527236938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextGrayColor">
+            <color red="0.45899999141693115" green="0.45899999141693115" blue="0.45899999141693115" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

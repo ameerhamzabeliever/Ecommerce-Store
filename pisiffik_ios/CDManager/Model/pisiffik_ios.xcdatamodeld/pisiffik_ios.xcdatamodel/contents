@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21512" systemVersion="22F66" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDUser" representedClassName="CDUser" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="cityID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="cityName" optional="YES" attributeType="String"/>
+        <attribute name="countryID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="countryName" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="deletedAt" optional="YES" attributeType="String"/>
+        <attribute name="deviceType" optional="YES" attributeType="String"/>
+        <attribute name="dob" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="emailVerifiedAt" optional="YES" attributeType="String"/>
+        <attribute name="emailVerify" optional="YES" attributeType="Integer 32" usesScalarValueType="YES"/>
+        <attribute name="fcmToken" optional="YES" attributeType="String"/>
+        <attribute name="fullName" optional="YES" attributeType="String"/>
+        <attribute name="genderID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="genderName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isVerified" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="otp" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="phoneVerify" optional="YES" attributeType="Integer 32" usesScalarValueType="YES"/>
+        <attribute name="rememberToken" optional="YES" attributeType="String"/>
+        <attribute name="stateID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="stateName" optional="YES" attributeType="String"/>
+        <attribute name="token" optional="YES" attributeType="String"/>
+        <attribute name="updatedAt" optional="YES" attributeType="String"/>
+    </entity>
+</model>

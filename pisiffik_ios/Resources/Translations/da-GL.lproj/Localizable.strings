@@ -1,0 +1,418 @@
+/* 
+  Localizable.strings
+  pisiffik_ios
+
+  Copyright © softwareAlliance. All rights reserved.
+*/
+
+// MARK: Common
+
+"commonOk" = "Ok";
+"commonCancel" = "Sussaaruk";
+"commonError" = "Ajutoorneq";
+"continue" = "Ingerlaqqigit";
+"errorSomethingWrong" = "Ajutoorpoq. Kingusinnerusukkut misileqqiguk";
+
+//MARK: - LANGUAGE -
+
+"pleaseSelectYourLanguage" = "Oqaatsit atorniakkatit toqqakkit";
+"danish" = "Danskisut";
+"greenland" = "Kalaallisut";
+"english" = "Tuluttut";
+
+//MARK: - AUTHBOARD -
+
+//Login....
+
+"next" = "Tullia";
+"loginYourAccount" = "Kontonnut iserit";
+"mobileNumber" = "Mobiilivit normua";
+"password" = "Isertaatit";
+"forgotPassword" = "Isertaa  puigorpara";
+"login" = "Iserit";
+"notRegisterYetCreateAnAccount" = "Suli kontoqanngilatit? Kontoliorit";
+"bySignInYouAgreeToPisiffik" = "Kontoliornermi akuerissavatit Pisiffiup:";
+"bySignUpYouAgreeToPisiffik" = "Nalunaarnermi Pisiffiup piumasaqaataa akueraat:";
+"termsOfUse" = "Atuinermi piumasaqaatit";
+"_and" = "&";
+"privacyPolicy" = "Nammineq inuuneqarnermut politikkik";
+"enableAccessToCalenderMessage" = "Aktiver venligst adgang til kalender for at tilføje begivenheder til din kalender.";
+"at" = "på";
+"or" = "Eller";
+"pleaseTypePhoneNmbOrEmailError" = "Indtast venligst telefonnummer eller e-mailadresse.";
+
+//Signup....
+
+"joinPisiffik" = "Pisiffimmi kontomik pilersitsigit";
+"fullName" = "Atit tamakkiisoq";
+"and" = "aamma";
+"alreadyAMemberLogin" = "Ilaasortaareerpit? Iserit";
+
+
+//Verification...
+
+"verifyPhone" = "Bekræft telefon";
+"enterVerificationCode" = "Kode uppernarsaat allaguk";
+"weHaveSentToYourMobileNumber" = "Mobiilivit normuanut isertaat nutaaq nassiupparput";
+"weHaveSentToYourEmailAddress" = "Vi har sendt til din e-mailadresse";
+"weHaveSentToYourEmail" = "Vi har sendt til din e-mail";
+"verify" = "Uppernarsaruk";
+"didNotGetACode" = "Isertaat nutaaq tigunngiliuk?";
+"resend" = "Nassiuteqqiguk";
+"verifying" = "Uppernarsiuk";
+"ok" = "OK";
+"pleaseEnterValidOtpCodeForVerification" = "Uppernarsarniarlugu OTP-kode eqqortoq allaguk";
+"newPhoneIsRequired" = "Nyt telefonnummer er påkrævet.";
+"newPhoneIsInValid" = "Indtast venligst et gyldigt nyt telefonnummer.";
+"newEmailIsRequired" = "Ny e-mail er påkrævet.";
+"newEmailIsInValid" = "Indtast gyldig ny e-mail.";
+
+//ForgotPassword....
+
+"forgot_Password" = "Isertaatit puigorpiuk?";
+"enterYourMobileNumberToResetPassword" = "Isertaatit taarserniarlugu mobiilivit normua allaguk";
+
+//Reset Password...
+
+"resetYourPassword" = "Isertaatit allanngortiguk";
+"newPassword" = "Isertaat nutaaq";
+"mustBeAtLeastSixCharacters" = "Isertaatit minnerpaamik arfinilinnik naqinnernik imaqassaaq.";
+"confirmPassword" = "Isertaat uppernarsarsatuk";
+"resetPassword" = "Isertaatit nutaanngortiguk";
+
+// MARK: Login Validation
+
+"enterValidNumber" = "Normu eqqortoq allaguk";
+"mobileNumberRequired" = "Mobiilip normua pisariaqarpoq";
+"passwordMustRequired" = "Isertaateqartariaqarpoq";
+"passwordShouldBe6Characters" = "Isertaanik minnerpaamik arfinilinnik naqinnertaqassaaq";
+"confirmPasswordMustRequired" = "Isissut eqqortup atornissaata piumasaqaatigineqarnera uppernarsiuk";
+"confirmPasswordShouldBe6Characters" = "Isissut eqqortup atornissaata piumasaqaatigineqarnera uppernarsiuk";
+"bothPasswordMustBeMatched" = "Isertaatit assigiinngillat";
+"tryAgain" = "Misileqqiguk";
+"makeSureWifiOrCellularDataIsTurnedOnAndThenTrySgain" = "WiFi imaluunniit mobildata ikumaneri qulakkeeriarlugit misileeqqigit";
+"oopsNoInternetConnection" = "Ups. Internetimut attaveqanngilatit";
+"somethingWentWrong" = "Ajutoorpoq.";
+"sorryNoItemFound" = "Ajoraluartumik nioqqut nassaarineqanngilaq";
+"sessionExpired" = "Sessioni nunguppoq";
+"enterValidFullName" = "Atit tamakkiisoq eqqortoq allaguk";
+"enterValidFullNameWithoutNumber" = "Indtast gyldigt fulde navn uden tal.";
+"fullNameLenghtError" = "Atit tamakkiisoq minnerpaamik marlunnik annerpaamillu 30-nik naqinneqassaaq";
+"deviceTypeRequired" = "Atortorissaarutivit allaqqanissaa pisariaqarpoq";
+"fcmTokenRequired" = "Fcm token pisariaqarpoq";
+"success" = "Iluatsippoq";
+"emailRequired" = "E-mail påkrævet";
+"enterValidEmail" = "E-maili atorsinnaasoq allaguk";
+"alreadyVerifiedEmail" = "Denne e-mail er allerede bekræftet.";
+"verified" = "Verificeret";
+
+//MARK: - SignUp Validation
+
+"fullNameRequired" = "Atit tamakkiisoq pisariaqarpoq";
+"alert" = "Maluginiagassat";
+"selectDateOfBirth" = "Inuuik toqqaruk";
+"selectYourGender" = "Suiaassutisi toqqaruk";
+
+//MARK: - ADD TICKET VALIDATION -
+
+"reasonRequired" = "Peqqutaa toqqaruk";
+"subjectRequired" = "Qulequtaq piumasaqaataavoq";
+"messageRequired" = "Allanneqarnissaa piumasaqaataavoq";
+
+//MARK: - MAIN TABBAR -
+
+"hi" = "Haluu";
+"home" = "Saqqaanut";
+"offers" = "Neqeroorutit";
+"online" = "Online";
+"more" = "Suli";
+"store" = "Piniarfik";
+"scan" = "Scan";
+"currentOffers" = "Maannakkut neqeroorutit";
+"currentCampaigns" = "Maannakkut kampagnet ingerlasut";
+"campaignProducts" = "Kampagneprodukter";
+"viewDetail" = "Erseqqissakkit";
+"pointsOverview" = "Poiniutit";
+"seeAll" = "Tamaasa takukkit";
+"recipes" = "Najoqqutassiat";
+"by" = "Immikkoortitikkitr";
+"serving" = "Serving";
+"portions" = "Amerlassutsit";
+"time" = "Piffissaq atugassaq";
+"min" = "minnerpaamik";
+"person" = "Inuk";
+"quantity" = "Qassit";
+"seeMore" = "Takusaqarnerugit";
+
+//MARK: - PROFILE TAB -
+
+"profile" = "Profiilit";
+"inbox" = "Allagarsiivigisartakkat";
+"purchase" = "Pisiat";
+"favorites" = "Nuannarinerpaasat";
+"offersAndBenefits" = "Neqeroorutit iluaqutissallu";
+"preferences" = "Salliutitat";
+"customerService" = "Kiffartuussivik";
+"aboutPisiffik" = "Pisiffik pillugu";
+"termsAndConditions" = "Piumasaqaatit";
+"rateOurApp" = "App-erput nalileruk";
+"gdpr" = "GDPR";
+"logout" = "Anigit";
+
+//MARK: - CUSTOMER SUPPORT SERVICE -
+
+"contactUs" = "Attavigisigut";
+"youCanContactUs" = "Attavigisinnaavatsigut";
+"forMoreInformation" = "Erseqqinnerusumik paasissutissat";
+"seeFAQ" = "FAQ atuakkit";
+"faq" = "FAQ";
+"seeTheRelevantTopic" = "Sammisaq naleqquttoq";
+"contactToCustomerServiceCenter" = "Kiffarttuussivik attavigiuk";
+"clickHere" = "Una tooruk";
+"order" = "Inniminnigaq";
+"product" = "Nioqqut";
+"payment" = "Akiliineq";
+"otherQueries" = "Sammisat allat";
+"search" = "Ujaasigit";
+"reason" = "Pissutaasoq";
+"subject" = "Sammisaq";
+"description" = "Nassuiaat";
+"send" = "Nassiuguk";
+"thankYouForContactingUs" = "Qujanaq attavigigatsigut";
+"pisiffikRepresentativeWillRespondToYourQuerySoon" = "Piarrnerpaamik Pisiffimmit attavigineqassaatit";
+
+//MARK: - MY FAVORITES -
+
+"pisiffikItems" = "Pisiffiup nioqqutai";
+"otherItems" = "Nioqqutit allat";
+
+//MARK: - My Profile -
+
+"email" = "E-maili";
+"emailPlaceHolder" = "example@gmail.com";
+"verifyEmail" = "E-maili uppernarsaruk";
+"dateOfBirth" = "Ulloq inuuffik";
+"gender" = "Suiaassuseq";
+"country" = "Nuna";
+"state" = "Naalagaaffik";
+"city" = "Illoqarfik";
+"address" = "Adressi";
+"select" = "Toqqaruk";
+"update" = "Nutarteruk";
+"male" = "Angut";
+"female" = "Arnaq";
+"cancel" = "Sussaaruk";
+"done" = "Naammassivoq";
+
+//MARK: - INBOX VC -
+
+"news" = "Nutaarsiassat";
+"events" = "Pisussaq";
+"notifications" = "Maluginiagassat";
+"days" = "dage";
+"direction" = "Aqqutaanut ilitsersuut";
+"km" = "km";
+"tickets" = "Billetit";
+"ticket" = "Sagip normua";
+"eventDetails" = "Pisumut tunngasut";
+"validFrom" = "Atuutilissaaq";
+"offerNewspapers" = "Aviisinik neqeroorit";
+"personalOffers" = "Ilinnuinnaq neqeroorutit";
+"membershipOffers" = "Ilaasortanut neqeroorutit";
+"localOffers" = "Najukkanni neqeroorutit";
+"eventActivities" = "Pisussat/Sammisaqartitsinerit";
+"attachFile" = "Fili akkiussaq";
+"attacments" = "Filit kakkiussat";
+"photo" = "Asseq";
+"document" = "Dokumentit";
+"fromGallery" = "Assiliivinnit";
+"fromDocuments" = "Dokumentinit";
+"viewFile" = "Fili takujuk";
+"status" = "Killiffik";
+"open" = "Ammasut";
+"closed" = "Naammassisat";
+"pending" = "Ingerlasut";
+"reOpened" = "Ammaqqitaq";
+"youCanOnlSelectMaximum" = "Annerpaaq toqqarsinnaavat";
+"youCanOnlySendMaximum" = "Annerpaamik nassiussinnaavat";
+"mb" = "MB";
+"fileSize" = "filip angissusaa";
+"enableLocationStoreDirectionAlertMessage" = "Sumiinneir allagut pisiniarfimmut naleqqiullutit sumiinnerit takuniarlugu.";
+"enableLocationStoreDistanceAlertMessage" = "Aktiver venligst din placering for at få en butiksafstand fra din nuværende placering.";
+"oopsStoreDirectionNotAvailable" = "Ups. Aqqutaa takuneqarsinnaanngilaq";
+"cameraPermissionNeeded" = "Assiliivimup atorsinnaanissaa psiariaqarpoq";
+"eventAddedToCalender" = "Sendt til kalender";
+"eventRemovedToCalender" = "Fjern fra kalenderen";
+"ticketClosedError" = "Denne billet er lukket af Admin.";
+"rebate" = "Rabat";
+
+//MARK: - MY PURCHASES VC -
+
+"allPurchases" = "Pisiat tamarmik";
+"boughtInPisiffikWebshop" = "Pisiffiup webshopiani pisiat";
+"boughtInPisiffikStore" = "Pisiffimmi pisiat";
+"all" = "Tamaasa";
+"lastSixMonths" = "Qaammatit arfinilliit kingulliit";
+"save" = "Toqqoruk";
+"orderNo" = "Inniminniinerup normua";
+"orderDate" = "Inniminniinermi ulloq";
+"amount" = "Akia";
+"redeemPoints" = "Pointit atukkat";
+"youHaveEarned" = "Katersugaraatit";
+"deliveryTo" = "Uuna tunniunneqarput";
+"pisiffikBenefits" = "Pisiffimmi iluaqutissat";
+"whenYourOrderIsCompletedSuccessfully" = "when your order is completed successfully.";
+"cancelOrder" = "Inniminnigaq taamaatiguk";
+"delivered" = "Tunniunneqarput";
+"readyForPickup" = "Aariaannanngorput";
+"sentToStore" = "Pisiniarfimmut nassiunneqarput";
+"duringTreatment" = "Suliaq ingerlavoq";
+"received" = "Tiguneqarput";
+"packageNumber" = "Nassiussap normua";
+"areYouSureYouWantToCancelThisOrder" = "Ilumut inniminnikkat una taamaatiinnarniarpiuk?";
+
+//MARK: - CANCEL ORDER VC -
+
+"cancellationRequest" = "Taanaatiinnarnissaa piumasariuk";
+"orderInfo" = "Inniminniinermut paasissutissat";
+"cancelOrderDescription" = "Qujanaq inniminniinermut taamaatitsiniaanermut piumasaqaravit. Qinnuigissavatsigit taamaatsitsiniarninnut piumasaqarnerit pillugu allalaaqqullutit, piaarnerpaamik suliarissavarput.";
+"reasonForCancellation" = "Taamaatiinnarneranut peqqutaasoq";
+"confirmCancellationRequest" = "Taanaatiinnarnissaanut piumasaqarnermut uppernarsaaneq";
+"requestSent" = "Piumasaq nassiunneqarpoq";
+"yourItemsHasBeenPlacedAndIsOnItWayToBeingProcessed" = "Inniminnikkat inissinneqarpoq suliarlu aallartilluni";
+
+//MARK: - MY POINTS VC -
+
+"availablePoints" = "Pointit atorsinnaasat";
+"yourPointsExpireSoon" = "Pointitit atorunnaangajalerput!";
+"outOf" = "ud af";
+"expiresOn" = "Udløber på";
+"expireIn" = "Udløber om";
+"earned" = "Katersat";
+"expire" = "Atorunnaarput";
+"redeem" = "Atukkit";
+"recent" = "Kingulliit";
+"thisWeek" = "Denne uge";
+"thisMonth" = "Denne måned";
+"thisYear" = "Dette år";
+"date" = "Ulloq";
+"earnedPoints" = "Pointit katersat";
+"points" = "Point";
+"expired" = "Atorunnaarput";
+
+//MARK: - FIND STORE -
+
+"findStore" = "Pisinairfik nassaariuk";
+
+
+//MARK: - STORE VC -
+
+"scanBarcode" = "Stregkodea scaneruk";
+"getHelpWithScan" = "Scanerinissannut ikiortigit";
+"error" = "Ajutoorneq";
+"instructions" = "Oqaaseqaat";
+"scanBarcodeAndGetProductDetailsLikeProductNameBrandPricing" = "Stregkode scanneruk nioqqutissap aqqa, meqqia akia il.il paasiniarlugit.";
+"okay" = "Ok";
+"myMembershipCard" = "Ilaasortaanermut allagartara";
+"scanningNotSupported" = "Scaningi atorsinnaangilaq";
+"yourDeviceDoesNotSupportScanningaCodeFromAnItemPleaseUse aDeviceWith aCamera" = "Atortorissaarutit uani scannerinermi atorsinnaanngilaq. Atortorissaarut alla assiliivittalik atoruk.";
+
+//MARK: - RECIPES VC -
+
+"breakfast" = "Ullaakkorsiutit";
+"lunch" = "Ullo'qeqqasiutit";
+"dinner" = "Unnukkorsiutit";
+"addToShoppingList" = "Pisiassanut ilanngupput";
+"ingrediants" = "Akussat";
+"items" = "Nioqqutit";
+"qty" = "QTY";
+"courseOfAction" = "Iliuuseq";
+"tip" = "Isumassarsiaq";
+"selectProductsFromIngredients" = "Akussaaq aallaavigalugit nioqqutit toqqakkit";
+
+//MARK: - OFFER DETAIL VC -
+
+"details" = "Erseqqinnerusumik paasissutissat";
+"addToCart" = "Koori ilannguguk";
+"singlePurchase" = "Pisineq ataaseq";
+"inStock" = "Lagerimiippoq";
+"youWillEarn" = "Du vil tjene";
+"youWillSpent" = "Du vil bruge";
+"andGetRebate" = "og få rabat";
+"pointsAtPisiffik" = "point på Pisiffik";
+"atPisiffik" = "Pisiffimmi";
+"availableAtStores" = "Pisinairfinni pissarsiarineqarsinnaapput";
+"info" = "Paasissutissat";
+"specification" = "Itinerusumik paasissutissat";
+"myShoppingList" = "Pisiassakka";
+"openingHours" = "Ammasarfiit";
+
+//MARK: - CART VC -
+
+"myCart" = "Koorera";
+"goToCheckout" = "Akiliigit";
+"checkoutToEarn" = "Katersiniarlutit akiliigit";
+"checkout" = "Akiliineq";
+"loyaltyAndDiscounts" = "Pisisartunut aaqqiissutit akikilliliinerillu";
+"reedemAll" = "Tamaasa atukkit";
+"totalVAT" = "Katillugit (momsit ilanngullugu)";
+"deliveryFee" = "Assartuinermi akitsuut";
+"reedemPoints" = "Pointit atukkit";
+"totalAmountDue" = "Katillugu akiligassaq";
+"free" = "Akeqanngilaq";
+"deliveryAddress" = "Najugaq nassiussivissaq";
+"addNewAddress" = "Adressi nutaaq ilannguguk";
+"paymentMethod" = "Akileeriaaseq";
+"slideToOrder" = "Inniminniiniarlutit slideruk";
+"selectOne" = "Ataaseq toqqaruk";
+"delivery" = "Aggissitsineq";
+"schedule" = "Piffissaq pilersaarutaasoq";
+"apply" = "qinnuteqaat";
+"cashOnDelivery" = "Tigunerani aningaasanik";
+"creditOrDabitCard" = "Kreditkort/debetkort";
+"noCardsAdded" = "Akiliut ikkussimanngilaq";
+"addACardToEnjoyASeamlessPaymentsExperience" = "Akiliineq pisariinnerutinniarlugu akiliut ikkuguk";
+"cardNumber" = "Akiliutip normua";
+"cardNo" = "Kortivit normua";
+"expiryMonth" = "Ulloq atuukkunnaarfissaa";
+"expiryYear" = "Ukioq atuukkunnaarfissaa";
+"cvv" = "CVV";
+"saveCard" = "Akiliut toqqoruk";
+"addNewCard" = "Akiliut nutaaq ikkuguj";
+"nameOnCard" = "Akiliummi piginnittup aqqa";
+"defaultAddress" = "Naliginnaasumik adresse";
+"additionalAddresses" = "Adressit allat";
+"editAddress" = "Adressi iluarsiuk";
+"type" = "Suunera";
+"office" = "Suliffik";
+"other" = "Alla";
+"optional" = "(Piumagaanni)";
+"saveChanges" = "Allannguutit toqqukkit";
+"pointsToBeUsed" = "Point, der skal bruges";
+"pointsToBeEarned" = "Point, der skal optjenes";
+
+//MARK: - MY OFFER AND BENEFIT VC -
+
+"personal" = "Inummut tunngasoq";
+"local" = "Najukkani";
+"membership" = "Ilaasortaaneq";
+"concept" = "Pisiniarfiit";
+"allOffers" = "Neqeroorutit tamarmik";
+
+//MARK: - DELETE ALERT VC -
+
+"deleteAddress" = "Adressi peeruk";
+"areYouSureYouWantToDeleteThisAddress" = "Ilumut adresse peerniarpiuk?";
+"yes" = "Aap";
+"no" = "Naamik";
+
+//MARK: - PREFERENCES -
+
+"categories" = "Pisinairfiit";
+"electronics" = "Elektronikkit";
+"interiorDesign" = "Pisatsersorneq";
+"hardware" = "Igaffimmi errorsisarfimmilu atortorissaarutit";
+"toysLeisure" = "Pinngussat sunngiffillu";
+"outdoor" = "Silami";
+"womenClothing" = "Arnat atisaat";
+"vinnit" = "Viinnit";

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CampaignsCell" rowHeight="133" id="KGk-i7-Jjw" customClass="CampaignsCell" customModule="pisiffik_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="512" height="133"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="512" height="133"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Bq-JK-vbI">
+                        <rect key="frame" x="0.0" y="0.0" width="512" height="133"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7KF-6X-mwQ">
+                                <rect key="frame" x="12" y="6" width="488" height="121"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7KF-6X-mwQ" secondAttribute="trailing" constant="12" id="5RC-SS-dmz"/>
+                            <constraint firstItem="7KF-6X-mwQ" firstAttribute="leading" secondItem="6Bq-JK-vbI" secondAttribute="leading" constant="12" id="9Ct-Nj-dBz"/>
+                            <constraint firstAttribute="bottom" secondItem="7KF-6X-mwQ" secondAttribute="bottom" constant="6" id="JQC-N0-hFg"/>
+                            <constraint firstItem="7KF-6X-mwQ" firstAttribute="top" secondItem="6Bq-JK-vbI" secondAttribute="top" constant="6" id="b3H-OR-SGx"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6Bq-JK-vbI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="5Sv-i4-CaH"/>
+                    <constraint firstAttribute="trailing" secondItem="6Bq-JK-vbI" secondAttribute="trailing" id="hoV-rB-ZXN"/>
+                    <constraint firstItem="6Bq-JK-vbI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="t8d-VP-EPT"/>
+                    <constraint firstAttribute="bottom" secondItem="6Bq-JK-vbI" secondAttribute="bottom" id="tk4-Wg-WZl"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="backView" destination="6Bq-JK-vbI" id="7W9-Tc-W6I"/>
+                <outlet property="campaignImageView" destination="7KF-6X-mwQ" id="AzW-KI-fAD"/>
+            </connections>
+            <point key="canvasLocation" x="271.01449275362319" y="117.52232142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

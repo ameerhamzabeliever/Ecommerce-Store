@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "onboard_three.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

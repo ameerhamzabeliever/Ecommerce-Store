@@ -1,0 +1,418 @@
+/* 
+  Localizable.strings
+  pisiffik_ios
+
+  Copyright © softwareAlliance. All rights reserved.
+*/
+
+// MARK: Common
+
+"commonOk" = "Ok";
+"commonCancel" = "Cancel";
+"commonError" = "Error";
+"continue" = "Continue";
+"errorSomethingWrong" = "Something went wrong. Please try again later";
+
+//MARK: - LANGUAGE -
+
+"pleaseSelectYourLanguage" = "Please Select Your Language";
+"danish" = "Danish";
+"greenland" = "Greenland";
+"english" = "English";
+
+//MARK: - AUTHBOARD -
+
+//Login....
+
+"next" = "Next";
+"loginYourAccount" = "Login Your Account";
+"mobileNumber" = "Mobile Number";
+"password" = "Password";
+"forgotPassword" = "Forgot password";
+"login" = "Login";
+"notRegisterYetCreateAnAccount" = "Not register yet? Create an account";
+"bySignInYouAgreeToPisiffik" = "By sign in you agree to Pisiffik:";
+"bySignUpYouAgreeToPisiffik" = "By sign up you agree to Pisiffik:";
+"termsOfUse" = "Terms of Use";
+"_and" = "&";
+"privacyPolicy" = "Privacy Policy";
+"enableAccessToCalenderMessage" = "Please enable access to calender to add events to your calender.";
+"at" = "at";
+"or" = "OR";
+"pleaseTypePhoneNmbOrEmailError" = "Please type phone number or email address.";
+
+//Signup....
+
+"joinPisiffik" = "Join Pisiffik";
+"fullName" = "Full Name";
+"and" = "and";
+"alreadyAMemberLogin" = "Already a member? Login";
+
+
+//Verification...
+
+"verifyPhone" = "Verify Phone";
+"enterVerificationCode" = "Enter Verification Code";
+"weHaveSentToYourMobileNumber" = "We have sent to your mobile number";
+"weHaveSentToYourEmailAddress" = "We have sent to your email address";
+"weHaveSentToYourEmail" = "We have sent to your e-mail";
+"verify" = "Verify";
+"didNotGetACode" = "Didn’t get a code?";
+"resend" = "Resend";
+"verifying" = "Verifying";
+"ok" = "OK";
+"pleaseEnterValidOtpCodeForVerification" = "Please enter valid OTP code for verification";
+"newPhoneIsRequired" = "New phone number is required.";
+"newPhoneIsInValid" = "Please enter valid new phone number.";
+"newEmailIsRequired" = "New email is required.";
+"newEmailIsInValid" = "Please enter valid new email.";
+
+//ForgotPassword....
+
+"forgot_Password" = "Forgot Password?";
+"enterYourMobileNumberToResetPassword" = "Enter your mobile number to reset password";
+
+//Reset Password...
+
+"resetYourPassword" = "Reset Your Password";
+"newPassword" = "New Password";
+"mustBeAtLeastSixCharacters" = "Must be at least 6 characters.";
+"confirmPassword" = "Confirm Password";
+"resetPassword" = "Reset password";
+
+// MARK: Login Validation
+
+"enterValidNumber" = "Enter valid number";
+"mobileNumberRequired" = "Mobile number required";
+"passwordMustRequired" = "Password must required";
+"passwordShouldBe6Characters" = "Password should be minimum of 6 characters";
+"confirmPasswordMustRequired" = "Confirm password must required";
+"confirmPasswordShouldBe6Characters" = "Confirm password should be minimum of 6 characters";
+"bothPasswordMustBeMatched" = "Password does not match";
+"tryAgain" = "Try Again";
+"makeSureWifiOrCellularDataIsTurnedOnAndThenTrySgain" = "Make sure wifi or cellular data is turned on and then try again";
+"oopsNoInternetConnection" = "Oops. No internet connection";
+"somethingWentWrong" = "Something went wrong";
+"sorryNoItemFound" = "Sorry! No Item Found";
+"sessionExpired" = "Session Expired";
+"enterValidFullName" = "Enter valid full name";
+"enterValidFullNameWithoutNumber" = "Enter valid full name without numbers.";
+"fullNameLenghtError" = "Full name should be minimum lenght of 2 and maximum lenght of 30";
+"deviceTypeRequired" = "Device type is required";
+"fcmTokenRequired" = "Fcm token is required";
+"success" = "Success";
+"emailRequired" = "Email required";
+"enterValidEmail" = "Enter valid e-mail";
+"alreadyVerifiedEmail" = "This e-mail is already verified.";
+"verified" = "Verified";
+
+//MARK: - SignUp Validation
+
+"fullNameRequired" = "Full name required";
+"alert" = "Alert";
+"selectDateOfBirth" = "Select Date of Birth";
+"selectYourGender" = "Select your gender";
+
+//MARK: - ADD TICKET VALIDATION -
+
+"reasonRequired" = "Select your reason";
+"subjectRequired" = "Subject required";
+"messageRequired" = "Message required";
+
+//MARK: - MAIN TABBAR -
+
+"hi" = "Hi";
+"home" = "Home";
+"offers" = "Offers";
+"online" = "Online";
+"more" = "More";
+"store" = "Store";
+"scan" = "Scan";
+"currentOffers" = "Current offers";
+"currentCampaigns" = "Current campaigns";
+"campaignProducts" = "Campaign Products";
+"viewDetail" = "View Detail";
+"pointsOverview" = "Points Overview";
+"seeAll" = "See all";
+"recipes" = "Recipes";
+"by" = "By";
+"serving" = "Serving";
+"portions" = "Portions";
+"time" = "Time";
+"min" = "min";
+"person" = "Person";
+"quantity" = "Quantity";
+"seeMore" = "See More";
+
+//MARK: - PROFILE TAB -
+
+"profile" = "Profile";
+"inbox" = "Inbox";
+"purchase" = "Purchase";
+"favorites" = "Favorites";
+"offersAndBenefits" = "Offers and Benefits";
+"preferences" = "Preferences";
+"customerService" = "Customer Service";
+"aboutPisiffik" = "About Pisiffik";
+"termsAndConditions" = "Terms & Conditions";
+"rateOurApp" = "Rate Our App";
+"gdpr" = "GDPR";
+"logout" = "Logout";
+
+//MARK: - CUSTOMER SUPPORT SERVICE -
+
+"contactUs" = "Contact Us";
+"youCanContactUs" = "You can contact us";
+"forMoreInformation" = "For more information";
+"seeFAQ" = "See FAQ";
+"faq" = "FAQ";
+"seeTheRelevantTopic" = "See the relevant topic";
+"contactToCustomerServiceCenter" = "Contact to customer service center?";
+"clickHere" = "Click here";
+"order" = "Order";
+"product" = "Product";
+"payment" = "Payment";
+"otherQueries" = "Other queries";
+"search" = "Search";
+"reason" = "Reason";
+"subject" = "Subject";
+"description" = "Description";
+"send" = "Send";
+"thankYouForContactingUs" = "Thank you for contacting us.";
+"pisiffikRepresentativeWillRespondToYourQuerySoon" = "Pisiffik representative will respond to your query soon.";
+
+//MARK: - MY FAVORITES -
+
+"pisiffikItems" = "Pisiffik Items";
+"otherItems" = "Other Items";
+
+//MARK: - My Profile -
+
+"email" = "E-mail";
+"emailPlaceHolder" = "example@gmail.com";
+"verifyEmail" = "Verify E-mail";
+"dateOfBirth" = "Date Of Birth";
+"gender" = "Gender";
+"country" = "Country";
+"state" = "State";
+"city" = "City";
+"address" = "Address";
+"select" = "Select";
+"update" = "Update";
+"male" = "Male";
+"female" = "Female";
+"cancel" = "Cancel";
+"done" = "Done";
+
+//MARK: - INBOX VC -
+
+"news" = "News";
+"events" = "Events";
+"notifications" = "Notifications";
+"days" = "Days";
+"direction" = "Direction";
+"km" = "km";
+"tickets" = "Tickets";
+"ticket" = "Ticket";
+"eventDetails" = "Event Details";
+"validFrom" = "Valid from";
+"offerNewspapers" = "Offer newspapers";
+"personalOffers" = "Personal offers";
+"membershipOffers" = "Membership offers";
+"localOffers" = "Local offers";
+"eventActivities" = "Events / Activities";
+"attachFile" = "Attach files";
+"attacments" = "Attachments";
+"photo" = "Photo";
+"document" = "Document";
+"fromGallery" = "From Camera/Library";
+"fromDocuments" = "From Documents";
+"viewFile" = "View file";
+"status" = "Status";
+"open" = "Open";
+"closed" = "Closed";
+"pending" = "Pending";
+"reOpened" = "Re-Opened";
+"youCanOnlSelectMaximum" = "You can only select maximum";
+"youCanOnlySendMaximum" = "You can only send maximum";
+"mb" = "MB";
+"fileSize" = "file size";
+"enableLocationStoreDirectionAlertMessage" = "Please enable your location to get the direction of store.";
+"enableLocationStoreDistanceAlertMessage" = "Please enable your location to get the distance of store from your current location.";
+"oopsStoreDirectionNotAvailable" = "Oops, store direction not available!";
+"cameraPermissionNeeded" = "Camera permission is needed";
+"eventAddedToCalender" = "Sent to calender";
+"eventRemovedToCalender" = "Remove from calender";
+"ticketClosedError" = "This ticket is closed by Admin.";
+"rebate" = "Rebate";
+
+//MARK: - MY PURCHASES VC -
+
+"allPurchases" = "All Purchases";
+"boughtInPisiffikWebshop" = "Bought in Pisiffik Webshop";
+"boughtInPisiffikStore" = "Bought in Pisiffik Store";
+"all" = "All";
+"lastSixMonths" = "Last 6 Months";
+"save" = "Save";
+"orderNo" = "Order No";
+"orderDate" = "Order Date";
+"amount" = "Amount";
+"redeemPoints" = "Redeem Points";
+"youHaveEarned" = "You have earned";
+"deliveryTo" = "Delivery to";
+"pisiffikBenefits" = "Pisiffik Benefits";
+"whenYourOrderIsCompletedSuccessfully" = "when your order is completed successfully.";
+"cancelOrder" = "Cancel Order";
+"delivered" = "Delivered";
+"readyForPickup" = "Ready for pickup";
+"sentToStore" = "Sent to store";
+"duringTreatment" = "During Treatment";
+"received" = "Received";
+"packageNumber" = "Package number";
+"areYouSureYouWantToCancelThisOrder" = "Are you sure you want to cancel this order?";
+
+//MARK: - CANCEL ORDER VC -
+
+"cancellationRequest" = "Cancellation Request";
+"orderInfo" = "Order info";
+"cancelOrderDescription" = "Thank you for your request to cancel this order. please leave us a note about cancellation request and we will review it as soon as possible.";
+"reasonForCancellation" = "Reason for cancellation";
+"confirmCancellationRequest" = "Confirm Cancellation Request";
+"requestSent" = "Request Sent";
+"yourItemsHasBeenPlacedAndIsOnItWayToBeingProcessed" = "Your items has been placed and is on it’s way to being processed";
+
+//MARK: - MY POINTS VC -
+
+"availablePoints" = "Available Points";
+"yourPointsExpireSoon" = "Your Points Expire Soon!";
+"outOf" = "out of";
+"expiresOn" = "Expires on";
+"expireIn" = "Expire In";
+"earned" = "Earned";
+"expire" = "Expire";
+"redeem" = "Redeem";
+"recent" = "Recent";
+"thisWeek" = "This Week";
+"thisMonth" = "This Month";
+"thisYear" = "This Year";
+"date" = "Date";
+"earnedPoints" = "Earned Points";
+"points" = "Points";
+"expired" = "Expired";
+
+//MARK: - FIND STORE -
+
+"findStore" = "Find Store";
+
+
+//MARK: - STORE VC -
+
+"scanBarcode" = "Scan Barcode";
+"getHelpWithScan" = "Get Help With Scan";
+"error" = "Error";
+"instructions" = "Instructions";
+"scanBarcodeAndGetProductDetailsLikeProductNameBrandPricing" = "Scan Barcode and get product details, like product name, brand, pricing etc.";
+"okay" = "Ok";
+"myMembershipCard" = "My Membership Card";
+"scanningNotSupported" = "Scanning not supported";
+"yourDeviceDoesNotSupportScanningaCodeFromAnItemPleaseUse aDeviceWith aCamera" = "Your device does not support scanning a code from an item. Please use a device with a camera.";
+
+//MARK: - RECIPES VC -
+
+"breakfast" = "Breakfast";
+"lunch" = "Lunch";
+"dinner" = "Dinner";
+"addToShoppingList" = "Add To Shopping List";
+"ingrediants" = "Ingrediants";
+"items" = "Items";
+"qty" = "QTY";
+"courseOfAction" = "Course of action";
+"tip" = "Tip";
+"selectProductsFromIngredients" = "Select products from ingredients";
+
+//MARK: - OFFER DETAIL VC -
+
+"details" = "Details";
+"addToCart" = "Add To Cart";
+"singlePurchase" = "Single Purchase";
+"inStock" = "In stock";
+"youWillEarn" = "You will earn";
+"youWillSpent" = "You will spent";
+"andGetRebate" = "and get rebate";
+"pointsAtPisiffik" = "Points at Pisiffik";
+"atPisiffik" = "at Pisiffik";
+"availableAtStores" = "Available at Stores";
+"info" = "Info";
+"specification" = "Specification";
+"myShoppingList" = "My Shopping List";
+"openingHours" = "Opening Hours";
+
+//MARK: - CART VC -
+
+"myCart" = "My Cart";
+"goToCheckout" = "Go To Checkout";
+"checkoutToEarn" = "Checkout to earn";
+"checkout" = "Checkout";
+"loyaltyAndDiscounts" = "Loyalty and discounts";
+"reedemAll" = "Reedem All";
+"totalVAT" = "Total (Incl. VAT)";
+"deliveryFee" = "Delivery Fee";
+"reedemPoints" = "Reedem Points";
+"totalAmountDue" = "Total Amount Due";
+"free" = "Free";
+"deliveryAddress" = "Delivery Address";
+"addNewAddress" = "Add New Address";
+"paymentMethod" = "Payment Method";
+"slideToOrder" = "Slide To Order";
+"selectOne" = "Select One";
+"delivery" = "Delivery";
+"schedule" = "Schedule";
+"apply" = "Apply";
+"cashOnDelivery" = "Cash On Delivery";
+"creditOrDabitCard" = "Credit/Dabit Card";
+"noCardsAdded" = "No cards added";
+"addACardToEnjoyASeamlessPaymentsExperience" = "Add a card to enjoy a seamless payments experience";
+"cardNumber" = "Card Number";
+"cardNo" = "Card no";
+"expiryMonth" = "Expiry Month";
+"expiryYear" = "Expiry Year";
+"cvv" = "CVV";
+"saveCard" = "Save Card";
+"addNewCard" = "Add New Card";
+"nameOnCard" = "Name on Card";
+"defaultAddress" = "Default Address";
+"additionalAddresses" = "Additional Addresses";
+"editAddress" = "Edit Address";
+"type" = "Type";
+"office" = "Office";
+"other" = "Other";
+"optional" = "(Optional)";
+"saveChanges" = "Save Changes";
+"pointsToBeUsed" = "Points to be used";
+"pointsToBeEarned" = "Points to be earned";
+
+//MARK: - MY OFFER AND BENEFIT VC -
+
+"personal" = "Personal";
+"local" = "Local";
+"membership" = "Membership";
+"concept" = "Concepts";
+"allOffers" = "All Offers";
+
+//MARK: - DELETE ALERT VC -
+
+"deleteAddress" = "Delete Address";
+"areYouSureYouWantToDeleteThisAddress" = "Are you sure you want to delete this Address?";
+"yes" = "Yes";
+"no" = "No";
+
+//MARK: - PREFERENCES -
+
+"categories" = "Categories";
+"electronics" = "Electronics";
+"interiorDesign" = "Interior design";
+"hardware" = "Hardware";
+"toysLeisure" = "Toys & Leisure";
+"outdoor" = "Outdoor";
+"womenClothing" = "Women's Clothing";
+"vinnit" = "Vinnit";

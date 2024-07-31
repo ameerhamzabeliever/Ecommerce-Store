@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FontsFree-Net-SFProText-Medium.ttf">
+            <string>SFProText-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MyPointsCell" rowHeight="107" id="KGk-i7-Jjw" customClass="MyPointsCell" customModule="pisiffik_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="450" height="107"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="450" height="107"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v1i-bg-UX0">
+                        <rect key="frame" x="0.0" y="3" width="450" height="101"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_left_chevron" translatesAutoresizingMaskIntoConstraints="NO" id="wFH-oD-EFO">
+                                <rect key="frame" x="418" y="38.5" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="DKh-9a-VS4"/>
+                                    <constraint firstAttribute="width" constant="24" id="zg7-JE-DFT"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="H8S-d3-EN0">
+                                <rect key="frame" x="16" y="16" width="399" height="69"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Earned" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGi-4i-SCH">
+                                        <rect key="frame" x="0.0" y="0.0" width="96" height="69"/>
+                                        <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="12"/>
+                                        <color key="textColor" name="TextGrayColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llc-Ji-ewg">
+                                        <rect key="frame" x="101" y="0.0" width="96" height="69"/>
+                                        <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="12"/>
+                                        <color key="textColor" name="TextGrayColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="87565" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJm-VW-YNw">
+                                        <rect key="frame" x="202" y="0.0" width="96" height="69"/>
+                                        <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="12"/>
+                                        <color key="textColor" name="TextGrayColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25 June 2022" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbx-1g-Ewm">
+                                        <rect key="frame" x="303" y="0.0" width="96" height="69"/>
+                                        <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="12"/>
+                                        <color key="textColor" name="TextGrayColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="H8S-d3-EN0" firstAttribute="top" secondItem="v1i-bg-UX0" secondAttribute="top" constant="16" id="2QE-Sv-4s3"/>
+                            <constraint firstAttribute="trailing" secondItem="wFH-oD-EFO" secondAttribute="trailing" constant="8" id="2b7-uV-D7k"/>
+                            <constraint firstItem="H8S-d3-EN0" firstAttribute="leading" secondItem="v1i-bg-UX0" secondAttribute="leading" constant="16" id="4L7-qW-3Ax"/>
+                            <constraint firstAttribute="bottom" secondItem="H8S-d3-EN0" secondAttribute="bottom" constant="16" id="PA2-7a-XkH"/>
+                            <constraint firstItem="wFH-oD-EFO" firstAttribute="leading" secondItem="H8S-d3-EN0" secondAttribute="trailing" constant="3" id="RFj-XW-lMu"/>
+                            <constraint firstItem="wFH-oD-EFO" firstAttribute="centerY" secondItem="H8S-d3-EN0" secondAttribute="centerY" id="V0Y-Ey-mpH"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="v1i-bg-UX0" secondAttribute="trailing" id="1aa-jz-nm3"/>
+                    <constraint firstItem="v1i-bg-UX0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="kEH-bf-r8A"/>
+                    <constraint firstItem="v1i-bg-UX0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="moY-Bu-PJj"/>
+                    <constraint firstAttribute="bottom" secondItem="v1i-bg-UX0" secondAttribute="bottom" constant="3" id="n4n-Tk-0nr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="backView" destination="v1i-bg-UX0" id="MdS-od-4l4"/>
+                <outlet property="dateLbl" destination="Dbx-1g-Ewm" id="4dl-Ji-k7b"/>
+                <outlet property="icLeftChevronImageView" destination="wFH-oD-EFO" id="LAy-pR-T0q"/>
+                <outlet property="orderOnLbl" destination="iJm-VW-YNw" id="Dt4-TW-P3b"/>
+                <outlet property="pointsLbl" destination="llc-Ji-ewg" id="U6I-vc-ML5"/>
+                <outlet property="typeLbl" destination="vGi-4i-SCH" id="HFk-sd-01t"/>
+            </connections>
+            <point key="canvasLocation" x="434.78260869565219" y="108.14732142857143"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_left_chevron" width="24" height="24"/>
+        <namedColor name="TextGrayColor">
+            <color red="0.45899999141693115" green="0.45899999141693115" blue="0.45899999141693115" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

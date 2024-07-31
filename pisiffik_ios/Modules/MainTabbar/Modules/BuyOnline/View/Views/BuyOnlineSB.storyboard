@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FontsFree-Net-SFProText-Medium.ttf">
+            <string>SFProText-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="GDu-s7-a6f">
+            <objects>
+                <viewController id="mcg-eL-nM7" sceneMemberID="viewController">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="qC2-CM-1Eg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="QdR-Nr-YPK">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e0d-4S-69m">
+                                <rect key="frame" x="0.0" y="48" width="414" height="56"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buy Online" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7NR-Yg-pd0">
+                                        <rect key="frame" x="60" y="0.0" width="286" height="56"/>
+                                        <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xn7-rZ-gH0" customClass="SYBadgeButton" customModule="SYBadgeButton">
+                                        <rect key="frame" x="356" y="3" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="IXY-NO-VUd"/>
+                                            <constraint firstAttribute="height" constant="50" id="jRL-TQ-tiF"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="ic_cart_icon"/>
+                                        <connections>
+                                            <action selector="didTapCartBtn:" destination="mcg-eL-nM7" eventType="touchUpInside" id="eEe-Ef-Fw6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="7NR-Yg-pd0" secondAttribute="bottom" id="1Bq-dX-t4e"/>
+                                    <constraint firstItem="xn7-rZ-gH0" firstAttribute="centerY" secondItem="e0d-4S-69m" secondAttribute="centerY" id="8iA-Vv-ZUE"/>
+                                    <constraint firstItem="7NR-Yg-pd0" firstAttribute="top" secondItem="e0d-4S-69m" secondAttribute="top" id="QhN-ZX-Brx"/>
+                                    <constraint firstAttribute="trailing" secondItem="xn7-rZ-gH0" secondAttribute="trailing" constant="8" id="aCt-rN-wxE"/>
+                                    <constraint firstAttribute="height" constant="56" id="e2C-1J-XCE"/>
+                                    <constraint firstItem="7NR-Yg-pd0" firstAttribute="leading" secondItem="e0d-4S-69m" secondAttribute="leading" constant="60" id="oL9-uW-3OA"/>
+                                    <constraint firstItem="xn7-rZ-gH0" firstAttribute="leading" secondItem="7NR-Yg-pd0" secondAttribute="trailing" constant="10" id="q4L-Lo-NZI"/>
+                                </constraints>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pWy-nT-C47" userLabel="BgView">
+                                <rect key="frame" x="0.0" y="104" width="414" height="792"/>
+                                <color key="backgroundColor" name="NewBgColor"/>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="z57-69-3wg">
+                                <rect key="frame" x="12" y="104" width="390" height="758"/>
+                                <color key="backgroundColor" name="NewBgColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="uTq-R1-XL1">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="9fl-xF-aTR">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dzp-Ld-hLs">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0fE-cb-kSD"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="QdR-Nr-YPK" firstAttribute="trailing" secondItem="qC2-CM-1Eg" secondAttribute="trailing" id="8Dx-st-8vw"/>
+                            <constraint firstItem="0fE-cb-kSD" firstAttribute="trailing" secondItem="e0d-4S-69m" secondAttribute="trailing" id="E2f-q6-78M"/>
+                            <constraint firstItem="pWy-nT-C47" firstAttribute="trailing" secondItem="QdR-Nr-YPK" secondAttribute="trailing" id="ENl-EE-UqY"/>
+                            <constraint firstItem="QdR-Nr-YPK" firstAttribute="top" secondItem="qC2-CM-1Eg" secondAttribute="top" id="GDC-l6-KRS"/>
+                            <constraint firstItem="pWy-nT-C47" firstAttribute="bottom" secondItem="QdR-Nr-YPK" secondAttribute="bottom" id="IL3-7r-35l"/>
+                            <constraint firstItem="e0d-4S-69m" firstAttribute="top" secondItem="0fE-cb-kSD" secondAttribute="top" id="Wd9-LY-yK1"/>
+                            <constraint firstItem="pWy-nT-C47" firstAttribute="leading" secondItem="QdR-Nr-YPK" secondAttribute="leading" id="XSi-ax-xib"/>
+                            <constraint firstItem="QdR-Nr-YPK" firstAttribute="leading" secondItem="qC2-CM-1Eg" secondAttribute="leading" id="arK-nt-qhn"/>
+                            <constraint firstItem="0fE-cb-kSD" firstAttribute="trailing" secondItem="z57-69-3wg" secondAttribute="trailing" constant="12" id="cFo-kk-aKT"/>
+                            <constraint firstItem="e0d-4S-69m" firstAttribute="leading" secondItem="0fE-cb-kSD" secondAttribute="leading" id="g2K-Oi-vYi"/>
+                            <constraint firstItem="z57-69-3wg" firstAttribute="leading" secondItem="0fE-cb-kSD" secondAttribute="leading" constant="12" id="kaI-uh-LXr"/>
+                            <constraint firstItem="pWy-nT-C47" firstAttribute="top" secondItem="e0d-4S-69m" secondAttribute="bottom" id="kcH-wa-Cv8"/>
+                            <constraint firstItem="z57-69-3wg" firstAttribute="top" secondItem="e0d-4S-69m" secondAttribute="bottom" id="pf6-tn-IsR"/>
+                            <constraint firstItem="0fE-cb-kSD" firstAttribute="bottom" secondItem="z57-69-3wg" secondAttribute="bottom" id="w0K-Wr-Xfc"/>
+                            <constraint firstAttribute="bottom" secondItem="QdR-Nr-YPK" secondAttribute="bottom" id="zGz-cF-Nob"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cartBtn" destination="xn7-rZ-gH0" id="ksi-Mw-V83"/>
+                        <outlet property="itemsCollectionView" destination="z57-69-3wg" id="pZ4-75-sxo"/>
+                        <outlet property="titleLbl" destination="7NR-Yg-pd0" id="DyI-DU-0ab"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ev-tS-NE6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="78.348214285714278"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="xn7-rZ-gH0">
+            <size key="intrinsicContentSize" width="24" height="24"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="background" width="1125" height="2436"/>
+        <image name="ic_cart_icon" width="24" height="24"/>
+        <namedColor name="BackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="NewBgColor">
+            <color red="0.96100002527236938" green="0.96100002527236938" blue="0.96100002527236938" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

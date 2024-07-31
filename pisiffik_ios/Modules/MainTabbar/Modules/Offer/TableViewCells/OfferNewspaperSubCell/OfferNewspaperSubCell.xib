@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OfferNewspaperSubCell" id="gTV-IL-0wX" customClass="OfferNewspaperSubCell" customModule="pisiffik_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="205" height="224"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="205" height="224"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pmc-2k-jbD">
+                        <rect key="frame" x="0.0" y="0.0" width="205" height="224"/>
+                        <subviews>
+                            <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="wZ9-s9-YxL">
+                                <rect key="frame" x="4" y="4" width="197" height="216"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2Jo-py-2ec">
+                                        <rect key="frame" x="0.0" y="0.0" width="197" height="161"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valid from" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yl6-B4-rhl">
+                                        <rect key="frame" x="0.0" y="168" width="197" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17 Jan - 24 Jan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAa-8w-9SI">
+                                        <rect key="frame" x="0.0" y="195.5" width="197" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wZ9-s9-YxL" secondAttribute="trailing" constant="4" id="1Nn-gv-YmK"/>
+                            <constraint firstItem="wZ9-s9-YxL" firstAttribute="leading" secondItem="pmc-2k-jbD" secondAttribute="leading" constant="4" id="NXK-Rt-uA3"/>
+                            <constraint firstAttribute="bottom" secondItem="wZ9-s9-YxL" secondAttribute="bottom" constant="4" id="ZbM-E0-Cfm"/>
+                            <constraint firstItem="wZ9-s9-YxL" firstAttribute="top" secondItem="pmc-2k-jbD" secondAttribute="top" constant="4" id="kYH-Yx-7Uy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="pmc-2k-jbD" secondAttribute="bottom" id="PF1-jI-EYd"/>
+                <constraint firstItem="pmc-2k-jbD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Xcw-YK-XCm"/>
+                <constraint firstItem="pmc-2k-jbD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="qFU-uB-InJ"/>
+                <constraint firstAttribute="trailing" secondItem="pmc-2k-jbD" secondAttribute="trailing" id="xbs-Se-qye"/>
+            </constraints>
+            <size key="customSize" width="205" height="224"/>
+            <connections>
+                <outlet property="backView" destination="pmc-2k-jbD" id="K5f-VC-eEj"/>
+                <outlet property="dateLbl" destination="nAa-8w-9SI" id="h6L-DR-Amb"/>
+                <outlet property="newsPaperImage" destination="2Jo-py-2ec" id="QUf-uV-W4n"/>
+                <outlet property="validFromLbl" destination="Yl6-B4-rhl" id="Wh0-A1-x0m"/>
+            </connections>
+            <point key="canvasLocation" x="-178" y="92"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,418 @@
+/* 
+  Localizable.strings
+  pisiffik_ios
+
+  Copyright © softwareAlliance. All rights reserved.
+*/
+
+// MARK: Common
+
+"commonOk" = "Ok";
+"commonCancel" = "Cancel";
+"commonError" = "Error";
+"continue" = "Fortsæt";
+"errorSomethingWrong" = "Noget gik galt. Prøv igen senere";
+
+//MARK: - LANGUAGE -
+
+"pleaseSelectYourLanguage" = "Vælg venligst sprog";
+"danish" = "Dansk";
+"greenland" = "Grønlandsk";
+"english" = "Engelsk";
+
+//MARK: - AUTHBOARD -
+
+//Login....
+
+"next" = "Næste";
+"loginYourAccount" = "Log på din konto";
+"mobileNumber" = "Mobilnummer";
+"password" = "Kodeord";
+"forgotPassword" = "Glemt kodeord";
+"login" = "Log på";
+"notRegisterYetCreateAnAccount" = "Ikke oprettet endnu? Opret konto";
+"bySignInYouAgreeToPisiffik" = "Ved at oprette en konto, er du enig i Pisiffiks:";
+"bySignUpYouAgreeToPisiffik" = "Ved tilmelding accepterer du Pisiffik:";
+"termsOfUse" = "vilkår for brug";
+"_and" = "&";
+"privacyPolicy" = "Privatlivspolitik";
+"enableAccessToCalenderMessage" = "Aktiver venligst adgang til kalender for at tilføje begivenheder til din kalender.";
+"at" = "på";
+"or" = "Eller";
+"pleaseTypePhoneNmbOrEmailError" = "Indtast venligst telefonnummer eller e-mailadresse.";
+
+//Signup....
+
+"joinPisiffik" = "Opret konto hos Pisiffik";
+"fullName" = "Fulde navn";
+"and" = "og";
+"alreadyAMemberLogin" = "Allerede medlem? Log på";
+
+
+//Verification...
+
+"verifyPhone" = "Bekræft telefon";
+"enterVerificationCode" = "Indtats verificeringskode";
+"weHaveSentToYourMobileNumber" = "Vi har sendt ny kode til dit mobilnummer";
+"weHaveSentToYourEmailAddress" = "Vi har sendt til din e-mailadresse";
+"weHaveSentToYourEmail" = "Vi har sendt til din e-mail";
+"verify" = "Verificér";
+"didNotGetACode" = "Har du ikke modtaget en kode?";
+"resend" = "Send igen";
+"verifying" = "Verificerer";
+"ok" = "OK";
+"pleaseEnterValidOtpCodeForVerification" = "Indtast venligst en gyldig OTP-kode til bekræftelse";
+"newPhoneIsRequired" = "Nyt telefonnummer er påkrævet.";
+"newPhoneIsInValid" = "Indtast venligst et gyldigt nyt telefonnummer.";
+"newEmailIsRequired" = "Ny e-mail er påkrævet.";
+"newEmailIsInValid" = "Indtast gyldig ny e-mail.";
+
+//ForgotPassword....
+
+"forgot_Password" = "Glemt kodeord?";
+"enterYourMobileNumberToResetPassword" = "Indtast mobilnummer for at nulstille kodeord";
+
+//Reset Password...
+
+"resetYourPassword" = "Nulstil kodeord";
+"newPassword" = "Nyt kodeord";
+"mustBeAtLeastSixCharacters" = "Kodeord skal indeholde minimum 6 karakterer.";
+"confirmPassword" = "Bekræft kodeord";
+"resetPassword" = "Nulstil kodeord";
+
+// MARK: Login Validation
+
+"enterValidNumber" = "Indtast et gyldigt nummer";
+"mobileNumberRequired" = "Mobilnummer påkrævet";
+"passwordMustRequired" = "Kodeord påkrævet";
+"passwordShouldBe6Characters" = "Kodeord skal bestå af minimum 6 karakterer";
+"confirmPasswordMustRequired" = "Bekræft adgangskode skal kræves";
+"confirmPasswordShouldBe6Characters" = "Bekræft adgangskoden skal være på minimum 6 tegn";
+"bothPasswordMustBeMatched" = "Kodeord er ikke ens";
+"tryAgain" = "Prøv igen";
+"makeSureWifiOrCellularDataIsTurnedOnAndThenTrySgain" = "Sørg for, at wifi eller mobildata er slået til, og prøv derefter igen";
+"oopsNoInternetConnection" = "Ups. Ingen internetforbindelse";
+"somethingWentWrong" = "Noget gik galt";
+"sorryNoItemFound" = "Desværre. Vare ej fundet";
+"sessionExpired" = "Sessionen er udløbet";
+"enterValidFullName" = "Indtast gyldigt fulde navn";
+"enterValidFullNameWithoutNumber" = "Indtast gyldigt fulde navn uden tal.";
+"fullNameLenghtError" = "Det fulde navn skal være mindst 2 og maksimalt 30";
+"deviceTypeRequired" = "Enhedstype er påkrævet";
+"fcmTokenRequired" = "Fcm token er påkrævet";
+"success" = "Succes";
+"emailRequired" = "E-mail påkrævet";
+"enterValidEmail" = "Indtast gyldig e-mail";
+"alreadyVerifiedEmail" = "Denne e-mail er allerede bekræftet.";
+"verified" = "Verificeret";
+
+//MARK: - SignUp Validation
+
+"fullNameRequired" = "Fuldt navn påkrævet";
+"alert" = "Notifikation";
+"selectDateOfBirth" = "Vælg fødsesldato";
+"selectYourGender" = "Vælg dit køn";
+
+//MARK: - ADD TICKET VALIDATION -
+
+"reasonRequired" = "Vælg årsag";
+"subjectRequired" = "Emne påkrævet";
+"messageRequired" = "Besked påkrævet";
+
+//MARK: - MAIN TABBAR -
+
+"hi" = "Hej";
+"home" = "Hjem";
+"offers" = "Tilbud";
+"online" = "Online";
+"more" = "Mere";
+"store" = "Butik";
+"scan" = "Scan";
+"currentOffers" = "Aktuelle tilbud";
+"currentCampaigns" = "Aktuelle kampagner";
+"campaignProducts" = "Kampagneprodukter";
+"viewDetail" = "Se detaljer";
+"pointsOverview" = "Pointoversigt";
+"seeAll" = "Se alle";
+"recipes" = "Opskrifter";
+"by" = "Af";
+"serving" = "Serving";
+"portions" = "Portioner";
+"time" = "Tid";
+"min" = "min";
+"person" = "Person";
+"quantity" = "Antal";
+"seeMore" = "Se mere";
+
+//MARK: - PROFILE TAB -
+
+"profile" = "Profil";
+"inbox" = "Indbakke";
+"purchase" = "Køb";
+"favorites" = "Favoritter";
+"offersAndBenefits" = "Tilbud og fordele";
+"preferences" = "Præferencer";
+"customerService" = "Kundeservice";
+"aboutPisiffik" = "Om Pisiffik";
+"termsAndConditions" = "Vilkår og betingelser";
+"rateOurApp" = "Anmeld vores app";
+"gdpr" = "GDPR";
+"logout" = "Log ud";
+
+//MARK: - CUSTOMER SUPPORT SERVICE -
+
+"contactUs" = "Kontakt os";
+"youCanContactUs" = "Du kan kontakte os";
+"forMoreInformation" = "For yderligere information";
+"seeFAQ" = "Læs FAQ";
+"faq" = "FAQ";
+"seeTheRelevantTopic" = "Se det relevante emne";
+"contactToCustomerServiceCenter" = "Kontakt kundeservice";
+"clickHere" = "Klik her";
+"order" = "Ordre";
+"product" = "Produkt";
+"payment" = "Betaling";
+"otherQueries" = "Andre emner";
+"search" = "Søg";
+"reason" = "Årsag";
+"subject" = "Emne";
+"description" = "Beskrivelse";
+"send" = "Sende";
+"thankYouForContactingUs" = "Tak fordi du kontaktede os";
+"pisiffikRepresentativeWillRespondToYourQuerySoon" = "Du vil blive kontaktet af en Pisiffik-medarbejder snarest";
+
+//MARK: - MY FAVORITES -
+
+"pisiffikItems" = "Pisiffik varer";
+"otherItems" = "Andre varer";
+
+//MARK: - My Profile -
+
+"email" = "E-mail";
+"emailPlaceHolder" = "example@gmail.com";
+"verifyEmail" = "Verificér e-mail";
+"dateOfBirth" = "Fødselsdato";
+"gender" = "Køn";
+"country" = "Land";
+"state" = "Stat";
+"city" = "By";
+"address" = "Adresse";
+"select" = "Vælg";
+"update" = "Opdatér";
+"male" = "Mand";
+"female" = "Kvinde";
+"cancel" = "Luk";
+"done" = "Færdig";
+
+//MARK: - INBOX VC -
+
+"news" = "Nyheder";
+"events" = "Events";
+"notifications" = "Notifikationer";
+"days" = "dage";
+"direction" = "Rutevejledning";
+"km" = "km";
+"tickets" = "Billetter";
+"ticket" = "Sagsnummer";
+"eventDetails" = "Begivenhedsdetaljer";
+"validFrom" = "Gyldig fra";
+"offerNewspapers" = "Tilbudsavis";
+"personalOffers" = "Personlige tilbud";
+"membershipOffers" = "Medlemstilbud";
+"localOffers" = "Lokale tilbud";
+"eventActivities" = "Events/Aktiviteter";
+"attachFile" = "Vedhæft fil";
+"attacments" = "Vedhæftede filer";
+"photo" = "Foto";
+"document" = "Dokument";
+"fromGallery" = "Fra kamera/bibliotek";
+"fromDocuments" = "Fra Dokumenter";
+"viewFile" = "Se fil";
+"status" = "Status";
+"open" = "Åben";
+"closed" = "Lukket";
+"pending" = "I gang";
+"reOpened" = "Genåbnet";
+"youCanOnlSelectMaximum" = "Du kan kun vælge maksimum";
+"youCanOnlySendMaximum" = "Du kan kun sende maksimalt";
+"mb" = "MB";
+"fileSize" = "filstørrelse";
+"enableLocationStoreDirectionAlertMessage" = "Aktiver venligst din placering for at få retningen til butikken.";
+"enableLocationStoreDistanceAlertMessage" = "Aktiver venligst din placering for at få en butiksafstand fra din nuværende placering.";
+"oopsStoreDirectionNotAvailable" = "Ups, butiksretning er ikke tilgængelig!";
+"cameraPermissionNeeded" = "Kameratilladelse er nødvendig";
+"eventAddedToCalender" = "Sendt til kalender";
+"eventRemovedToCalender" = "Fjern fra kalenderen";
+"ticketClosedError" = "Denne billet er lukket af Admin.";
+"rebate" = "Rabat";
+
+//MARK: - MY PURCHASES VC -
+
+"allPurchases" = "Alle køb";
+"boughtInPisiffikWebshop" = "Købt i Pisiffik webshop";
+"boughtInPisiffikStore" = "Købt i Pisiffik butik";
+"all" = "Alle";
+"lastSixMonths" = "Seneste 6 måneder";
+"save" = "Gem";
+"orderNo" = "Ordrenummer";
+"orderDate" = "Ordredato";
+"amount" = "Beløb";
+"redeemPoints" = "Indløste point";
+"youHaveEarned" = "Du har optjent";
+"deliveryTo" = "Levering til";
+"pisiffikBenefits" = "Pisiffik fordele";
+"whenYourOrderIsCompletedSuccessfully" = "when your order is completed successfully.";
+"cancelOrder" = "Annullér ordre";
+"delivered" = "Leveret";
+"readyForPickup" = "Klar til afhentning";
+"sentToStore" = "Sendt til butik";
+"duringTreatment" = "Under behandling";
+"received" = "Modtaget";
+"packageNumber" = "Pakkenummer";
+"areYouSureYouWantToCancelThisOrder" = "Er du sikker på, at du vil annullere denne ordre?";
+
+//MARK: - CANCEL ORDER VC -
+
+"cancellationRequest" = "Anmod om afbestilling";
+"orderInfo" = "Ordre info";
+"cancelOrderDescription" = "Tak for din anmodning om at annullere denne ordre. efterlad os venligst en note om annulleringsanmodning, og vi vil gennemgå den så hurtigt som muligt.";
+"reasonForCancellation" = "Årsag til afbestilling";
+"confirmCancellationRequest" = "Bekræft anmodning om afbestilling";
+"requestSent" = "Anmodning sendt";
+"yourItemsHasBeenPlacedAndIsOnItWayToBeingProcessed" = "Din ordre er placeret og er under behandling";
+
+//MARK: - MY POINTS VC -
+
+"availablePoints" = "Tilgængelige point";
+"yourPointsExpireSoon" = "Dine point udløber snart!";
+"outOf" = "ud af";
+"expiresOn" = "Udløber på";
+"expireIn" = "Udløber om";
+"earned" = "Optjent";
+"expire" = "Udløber";
+"redeem" = "Indløs";
+"recent" = "Seneste";
+"thisWeek" = "Denne uge";
+"thisMonth" = "Denne måned";
+"thisYear" = "Dette år";
+"date" = "Dato";
+"earnedPoints" = "Optjente point";
+"points" = "Point";
+"expired" = "Udløbet";
+
+//MARK: - FIND STORE -
+
+"findStore" = "Find butik";
+
+
+//MARK: - STORE VC -
+
+"scanBarcode" = "Scan stregkode";
+"getHelpWithScan" = "Få hjælp til at scanne";
+"error" = "Fejl";
+"instructions" = "Kommentar";
+"scanBarcodeAndGetProductDetailsLikeProductNameBrandPricing" = "Scan stregkode for at få information om f.eks. produktnavn, mærke, pris osv.";
+"okay" = "Ok";
+"myMembershipCard" = "Mit medlemskort";
+"scanningNotSupported" = "Scanning understøttes ikke";
+"yourDeviceDoesNotSupportScanningaCodeFromAnItemPleaseUse aDeviceWith aCamera" = "Din enhed understøtter ikke scanning af en kode fra et element. Brug venligst en enhed med et kamera.";
+
+//MARK: - RECIPES VC -
+
+"breakfast" = "Morgenmad";
+"lunch" = "Frokost";
+"dinner" = "Aftensmad";
+"addToShoppingList" = "Tilføj til indkøbsliste";
+"ingrediants" = "Ingredienser";
+"items" = "Varer";
+"qty" = "QTY";
+"courseOfAction" = "Fremgangsmåde";
+"tip" = "Tip";
+"selectProductsFromIngredients" = "Vælg produkter efter ingredienser";
+
+//MARK: - OFFER DETAIL VC -
+
+"details" = "Detaljer";
+"addToCart" = "Tilføj kurv";
+"singlePurchase" = "Enkelt køb";
+"inStock" = "På lager";
+"youWillEarn" = "Du vil tjene";
+"youWillSpent" = "Du vil bruge";
+"andGetRebate" = "og få rabat";
+"pointsAtPisiffik" = "point på Pisiffik";
+"atPisiffik" = "ved Pisiffik";
+"availableAtStores" = "Tilgængelig i butikker";
+"info" = "Information";
+"specification" = "Specifikation";
+"myShoppingList" = "Min indkøbsliste";
+"openingHours" = "Åbningstider";
+
+//MARK: - CART VC -
+
+"myCart" = "Min kurv";
+"goToCheckout" = "Gå til betaling";
+"checkoutToEarn" = "Betal for at optjene";
+"checkout" = "Betaling";
+"loyaltyAndDiscounts" = "Loyalitet og rabatter";
+"reedemAll" = "Indløs alle";
+"totalVAT" = "I alt (inkl. moms)";
+"deliveryFee" = "Leveringsgebyr";
+"reedemPoints" = "Indløs point";
+"totalAmountDue" = "Total beløb skyldig";
+"free" = "Gratis";
+"deliveryAddress" = "Leveringsadresse";
+"addNewAddress" = "Tilføj ny adresse";
+"paymentMethod" = "Betalingsmetode";
+"slideToOrder" = "Slide for at bestille";
+"selectOne" = "Vælg en";
+"delivery" = "Levering";
+"schedule" = "Tidsplan";
+"apply" = "ansøge";
+"cashOnDelivery" = "Kontant ved levering";
+"creditOrDabitCard" = "Kreditkort/debetkort";
+"noCardsAdded" = "Ingen kort tilføjet";
+"addACardToEnjoyASeamlessPaymentsExperience" = "Tilføl betalingskort for nem betaling";
+"cardNumber" = "Kortnummer";
+"cardNo" = "Kortnummer";
+"expiryMonth" = "Udløbsdato";
+"expiryYear" = "Udløbsår";
+"cvv" = "CVV";
+"saveCard" = "Gem betalingskort";
+"addNewCard" = "Tilføj nyt kort";
+"nameOnCard" = "Navn på kort";
+"defaultAddress" = "Standard adresse";
+"additionalAddresses" = "Andre adresser";
+"editAddress" = "Redigér adresse";
+"type" = "Type";
+"office" = "Arbejdsplads";
+"other" = "Andet";
+"optional" = "(Valgfri)";
+"saveChanges" = "Gem ændringer";
+"pointsToBeUsed" = "Point, der skal bruges";
+"pointsToBeEarned" = "Point, der skal optjenes";
+
+//MARK: - MY OFFER AND BENEFIT VC -
+
+"personal" = "Personlig";
+"local" = "Lokal";
+"membership" = "Medlemskab";
+"concept" = "Koncepter";
+"allOffers" = "Alle tilbud";
+
+//MARK: - DELETE ALERT VC -
+
+"deleteAddress" = "Slet adresse";
+"areYouSureYouWantToDeleteThisAddress" = "Er du sikker på, at du vil slette denne adresse?";
+"yes" = "Ja";
+"no" = "Nej";
+
+//MARK: - PREFERENCES -
+
+"categories" = "Kategorier";
+"electronics" = "Elektronik";
+"interiorDesign" = "Indretning";
+"hardware" = "Hårde hvidevarer";
+"toysLeisure" = "Legetøj og fritid";
+"outdoor" = "Udendørs";
+"womenClothing" = "Dametøj";
+"vinnit" = "Vinnit";

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FontsFree-Net-SFProText-Medium.ttf">
+            <string>SFProText-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PaymentCardCell" rowHeight="381" id="KGk-i7-Jjw" customClass="PaymentCardCell" customModule="pisiffik_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="458" height="381"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="458" height="381"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MWK-Zs-8fy">
+                        <rect key="frame" x="8" y="4" width="442" height="373"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_payment_card_bg" translatesAutoresizingMaskIntoConstraints="NO" id="mSG-d8-9xw">
+                                <rect key="frame" x="0.0" y="0.0" width="442" height="373"/>
+                            </imageView>
+                            <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="erI-LE-iUa">
+                                <rect key="frame" x="16" y="16" width="410" height="341"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wqA-ZC-xSX">
+                                        <rect key="frame" x="0.0" y="0.0" width="410" height="60"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_visa_image" translatesAutoresizingMaskIntoConstraints="NO" id="hYj-LV-RdU">
+                                                <rect key="frame" x="0.0" y="10" width="80" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="agG-r2-cBr"/>
+                                                    <constraint firstAttribute="width" constant="80" id="zpr-zf-jmj"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ru-5P-Gy6">
+                                                <rect key="frame" x="360" y="5" width="50" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="Clb-sF-t1Q"/>
+                                                    <constraint firstAttribute="height" constant="50" id="bF3-F6-ady"/>
+                                                </constraints>
+                                                <color key="tintColor" name="LightBlueColor"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="ic_remove_payment_card_icon"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="hYj-LV-RdU" firstAttribute="leading" secondItem="wqA-ZC-xSX" secondAttribute="leading" id="Clk-D5-nLS"/>
+                                            <constraint firstAttribute="trailing" secondItem="8ru-5P-Gy6" secondAttribute="trailing" id="IEG-dI-HSC"/>
+                                            <constraint firstItem="8ru-5P-Gy6" firstAttribute="top" secondItem="wqA-ZC-xSX" secondAttribute="top" constant="5" id="Mkj-yA-L1g"/>
+                                            <constraint firstItem="hYj-LV-RdU" firstAttribute="centerY" secondItem="wqA-ZC-xSX" secondAttribute="centerY" id="V8K-lW-f0d"/>
+                                            <constraint firstAttribute="bottom" secondItem="8ru-5P-Gy6" secondAttribute="bottom" constant="5" id="o5d-MK-XIK"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="lsc-kN-VvO">
+                                        <rect key="frame" x="0.0" y="68" width="410" height="273"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xxxx-xxxx-xxxx-x567" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1L-rO-5Fw">
+                                                <rect key="frame" x="0.0" y="0.0" width="410" height="133"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="14"/>
+                                                <color key="textColor" name="TextGrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="3Fu-oe-brb">
+                                                <rect key="frame" x="0.0" y="140" width="410" height="133"/>
+                                                <subviews>
+                                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Debit/Credit Card" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnv-2h-WOk">
+                                                        <rect key="frame" x="0.0" y="0.0" width="119" height="133"/>
+                                                        <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="14"/>
+                                                        <color key="textColor" name="TextGrayColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09/25" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Pe-Jk-nee">
+                                                        <rect key="frame" x="122" y="0.0" width="288" height="133"/>
+                                                        <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="14"/>
+                                                        <color key="textColor" name="TextGrayColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="BackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="erI-LE-iUa" secondAttribute="bottom" constant="16" id="3Bn-Fn-UyF"/>
+                            <constraint firstItem="mSG-d8-9xw" firstAttribute="leading" secondItem="MWK-Zs-8fy" secondAttribute="leading" id="APn-GO-OZc"/>
+                            <constraint firstItem="erI-LE-iUa" firstAttribute="leading" secondItem="MWK-Zs-8fy" secondAttribute="leading" constant="16" id="HBk-pT-e2i"/>
+                            <constraint firstAttribute="bottom" secondItem="mSG-d8-9xw" secondAttribute="bottom" id="LxW-bF-vcl"/>
+                            <constraint firstAttribute="trailing" secondItem="mSG-d8-9xw" secondAttribute="trailing" id="XIg-Ur-sPU"/>
+                            <constraint firstItem="mSG-d8-9xw" firstAttribute="top" secondItem="MWK-Zs-8fy" secondAttribute="top" id="dgw-sg-Bbl"/>
+                            <constraint firstAttribute="trailing" secondItem="erI-LE-iUa" secondAttribute="trailing" constant="16" id="x4k-Jk-rrN"/>
+                            <constraint firstItem="erI-LE-iUa" firstAttribute="top" secondItem="MWK-Zs-8fy" secondAttribute="top" constant="16" id="y2n-2B-Rrh"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="MWK-Zs-8fy" secondAttribute="bottom" constant="4" id="1aQ-NE-Yno"/>
+                    <constraint firstItem="MWK-Zs-8fy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="b0a-Me-Owb"/>
+                    <constraint firstAttribute="trailing" secondItem="MWK-Zs-8fy" secondAttribute="trailing" constant="8" id="bKW-1f-7s7"/>
+                    <constraint firstItem="MWK-Zs-8fy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="jvc-NI-MII"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="cardNmbLbl" destination="t1L-rO-5Fw" id="luG-Zo-kQD"/>
+                <outlet property="cardTypeImageView" destination="hYj-LV-RdU" id="qBl-Fz-368"/>
+                <outlet property="cardTypeLbl" destination="mnv-2h-WOk" id="hSh-bE-IZU"/>
+                <outlet property="deleteBtn" destination="8ru-5P-Gy6" id="NsP-R7-aFE"/>
+                <outlet property="expiryLbl" destination="2Pe-Jk-nee" id="jIp-YQ-zt5"/>
+            </connections>
+            <point key="canvasLocation" x="372" y="153"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_payment_card_bg" width="342" height="141"/>
+        <image name="ic_remove_payment_card_icon" width="22" height="22"/>
+        <image name="ic_visa_image" width="76" height="25"/>
+        <namedColor name="BackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LightBlueColor">
+            <color red="0.28200000524520874" green="0.56099998950958252" blue="0.87800002098083496" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextGrayColor">
+            <color red="0.45899999141693115" green="0.45899999141693115" blue="0.45899999141693115" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

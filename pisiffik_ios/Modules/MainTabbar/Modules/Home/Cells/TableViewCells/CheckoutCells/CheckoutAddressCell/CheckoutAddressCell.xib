@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FontsFree-Net-SFProText-Medium.ttf">
+            <string>SFProText-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CheckoutAddressCell" rowHeight="167" id="KGk-i7-Jjw" customClass="CheckoutAddressCell" customModule="pisiffik_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="429" height="167"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="429" height="167"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D6m-4X-U8o">
+                        <rect key="frame" x="0.0" y="8" width="429" height="151"/>
+                        <subviews>
+                            <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="rpA-ju-M5U">
+                                <rect key="frame" x="8" y="20" width="413" height="111"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="Rvs-dp-qSo">
+                                        <rect key="frame" x="0.0" y="0.0" width="413" height="33.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Delivery Address" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q9f-iy-xjP">
+                                                <rect key="frame" x="0.0" y="0.0" width="114.5" height="33.5"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="14"/>
+                                                <color key="textColor" name="TextGrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdh-Wh-Rak">
+                                                <rect key="frame" x="121.5" y="0.0" width="291.5" height="33.5"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="12"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Delivery Address" image="ic_left_gray_chevron">
+                                                    <color key="titleColor" name="TextGrayColor"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="qCM-bl-XQM">
+                                        <rect key="frame" x="0.0" y="58.5" width="413" height="52.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="Payment Method" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJB-ZE-eMi">
+                                                <rect key="frame" x="0.0" y="0.0" width="114.5" height="52.5"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="14"/>
+                                                <color key="textColor" name="TextGrayColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsP-ir-4Kl">
+                                                <rect key="frame" x="121.5" y="0.0" width="291.5" height="52.5"/>
+                                                <fontDescription key="fontDescription" name="SFProText-Medium" family="SF Pro Text" pointSize="12"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Cash on Delivery" image="ic_left_gray_chevron">
+                                                    <color key="titleColor" name="TextGrayColor"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="rpA-ju-M5U" secondAttribute="bottom" constant="20" id="5Bc-Ha-jhg"/>
+                            <constraint firstItem="rpA-ju-M5U" firstAttribute="leading" secondItem="D6m-4X-U8o" secondAttribute="leading" constant="8" id="N9b-FL-7T1"/>
+                            <constraint firstItem="rpA-ju-M5U" firstAttribute="top" secondItem="D6m-4X-U8o" secondAttribute="top" constant="20" id="dSn-MH-eIW"/>
+                            <constraint firstAttribute="trailing" secondItem="rpA-ju-M5U" secondAttribute="trailing" constant="8" id="veQ-6p-g9k"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="D6m-4X-U8o" secondAttribute="bottom" constant="8" id="9Ey-Ec-HWc"/>
+                    <constraint firstItem="D6m-4X-U8o" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Is8-4y-wFg"/>
+                    <constraint firstItem="D6m-4X-U8o" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="NoJ-fW-6e1"/>
+                    <constraint firstAttribute="trailing" secondItem="D6m-4X-U8o" secondAttribute="trailing" id="gjI-pW-cxz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="addressBtn" destination="cdh-Wh-Rak" id="qnV-r0-BJR"/>
+                <outlet property="addressLbl" destination="q9f-iy-xjP" id="gXg-H3-RGJ"/>
+                <outlet property="paymentMethodBtn" destination="fsP-ir-4Kl" id="ve8-lp-cWJ"/>
+                <outlet property="paymentMethodLbl" destination="PJB-ZE-eMi" id="Sao-UA-3Oa"/>
+            </connections>
+            <point key="canvasLocation" x="-312.31884057971018" y="100.11160714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_left_gray_chevron" width="21" height="19"/>
+        <namedColor name="TextGrayColor">
+            <color red="0.45899999141693115" green="0.45899999141693115" blue="0.45899999141693115" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

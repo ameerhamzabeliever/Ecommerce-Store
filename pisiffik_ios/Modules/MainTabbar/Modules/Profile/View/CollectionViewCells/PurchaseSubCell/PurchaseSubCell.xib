@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PurchaseSubCell" id="gTV-IL-0wX" customClass="PurchaseSubCell" customModule="pisiffik_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="253" height="181"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="253" height="181"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9oC-36-oPV">
+                        <rect key="frame" x="4" y="4" width="245" height="173"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bjV-h4-604">
+                                <rect key="frame" x="3" y="3" width="239" height="167"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="BackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bjV-h4-604" secondAttribute="trailing" constant="3" id="0Fk-9u-vHS"/>
+                            <constraint firstItem="bjV-h4-604" firstAttribute="top" secondItem="9oC-36-oPV" secondAttribute="top" constant="3" id="AVD-Qy-2zs"/>
+                            <constraint firstItem="bjV-h4-604" firstAttribute="leading" secondItem="9oC-36-oPV" secondAttribute="leading" constant="3" id="bwy-QI-4dS"/>
+                            <constraint firstAttribute="bottom" secondItem="bjV-h4-604" secondAttribute="bottom" constant="3" id="wZ9-EM-5Az"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.8784313725490196" green="0.8784313725490196" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="9oC-36-oPV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="9tJ-ky-EHX"/>
+                <constraint firstAttribute="bottom" secondItem="9oC-36-oPV" secondAttribute="bottom" constant="4" id="BeG-Qn-3VE"/>
+                <constraint firstAttribute="trailing" secondItem="9oC-36-oPV" secondAttribute="trailing" constant="4" id="IWs-Vp-FPE"/>
+                <constraint firstItem="9oC-36-oPV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="OSS-RJ-jIq"/>
+            </constraints>
+            <size key="customSize" width="253" height="181"/>
+            <connections>
+                <outlet property="itemsImageView" destination="bjV-h4-604" id="6V5-yJ-EiC"/>
+            </connections>
+            <point key="canvasLocation" x="278.98550724637681" y="137.61160714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="BackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

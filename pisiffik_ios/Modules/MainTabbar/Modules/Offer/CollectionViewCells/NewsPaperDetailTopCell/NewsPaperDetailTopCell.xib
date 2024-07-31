@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NewsPaperDetailTopCell" id="gTV-IL-0wX" customClass="NewsPaperDetailTopCell" customModule="pisiffik_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="182" height="188"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="182" height="188"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fzg-5E-an1">
+                        <rect key="frame" x="0.0" y="0.0" width="182" height="188"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BfE-bV-bCL">
+                                <rect key="frame" x="3" y="3" width="176" height="182"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="LightBlueColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="BfE-bV-bCL" secondAttribute="trailing" constant="3" id="2Hl-ZK-kJx"/>
+                            <constraint firstItem="BfE-bV-bCL" firstAttribute="top" secondItem="fzg-5E-an1" secondAttribute="top" constant="3" id="3s8-IA-0Bs"/>
+                            <constraint firstItem="BfE-bV-bCL" firstAttribute="leading" secondItem="fzg-5E-an1" secondAttribute="leading" constant="3" id="ElF-aI-GJV"/>
+                            <constraint firstAttribute="bottom" secondItem="BfE-bV-bCL" secondAttribute="bottom" constant="3" id="RlB-Qj-v0R"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fzg-5E-an1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="8rh-Ur-S0u"/>
+                <constraint firstAttribute="bottom" secondItem="fzg-5E-an1" secondAttribute="bottom" id="VBP-JX-ufO"/>
+                <constraint firstAttribute="trailing" secondItem="fzg-5E-an1" secondAttribute="trailing" id="iIX-O4-REP"/>
+                <constraint firstItem="fzg-5E-an1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="x5p-gG-5EC"/>
+            </constraints>
+            <size key="customSize" width="182" height="188"/>
+            <connections>
+                <outlet property="backView" destination="fzg-5E-an1" id="8xE-xW-7DO"/>
+                <outlet property="newsPaperImageView" destination="BfE-bV-bCL" id="Yvb-sr-hhb"/>
+            </connections>
+            <point key="canvasLocation" x="227.536231884058" y="156.69642857142856"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="LightBlueColor">
+            <color red="0.28200000524520874" green="0.56099998950958252" blue="0.87800002098083496" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
